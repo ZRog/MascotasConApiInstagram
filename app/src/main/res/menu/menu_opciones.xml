@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/contacto"
+        android:title="Contacto"
+        android:orderInCategory="100"></item>
+
+    <item
+        android:id="@+id/acercaDe"
+        android:title="Acerca De"
+        android:orderInCategory="101"></item>
+    <item
+        android:id="@+id/topMascotas"
+        android:title="TopMascotas"
+        android:orderInCategory="102"
+        android:icon="@drawable/ic_action_name"
+        app:showAsAction="always"></item>
+
+    <item
+        android:id="@+id/ConfigurarCuenta"
+        android:title="Configurar cuenta"
+        android:orderInCategory="103">
+    </item>
+</menu>

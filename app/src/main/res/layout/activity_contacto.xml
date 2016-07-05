@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.proyecto.roger.mascotas.Mail.Contacto">
+
+    <include android:id="@+id/miToolbar"
+        layout="@layout/action_bar"></include>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Correo Destinatario"
+        android:layout_below="@+id/miToolbar"
+        android:inputType="textEmailAddress"
+        android:id="@+id/destinoCorreo"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Asunto"
+        android:layout_below="@+id/destinoCorreo"
+        android:inputType="textEmailSubject"
+        android:id="@+id/asuntoCorreo"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Mensaje"
+        android:layout_below="@+id/asuntoCorreo"
+        android:inputType="textMultiLine"
+        android:id="@+id/mensajeCorreo"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mensajeCorreo"
+        android:layout_centerHorizontal="true"
+        android:text="Enviar Mail"
+        android:id="@+id/btnCorreo"/>
+
+</RelativeLayout>
